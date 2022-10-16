@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
 
 //     // $(".slick-next").click(function(e){
@@ -98,3 +99,5 @@ $("ul.menu").on('click', 'li', function(){
     $(this).siblings().removeClass('active');
     $(this).addClass('active');
   });
+
+ 
