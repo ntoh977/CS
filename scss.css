@@ -287,6 +287,10 @@ li.slick-active > button {
   padding-bottom: 10px;
 }
 
+.section {
+  background-color: #404864;
+}
+
 @media (max-width: 1027px) {
   .container__content-text-img {
     gap: 10px;

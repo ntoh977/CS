@@ -5,19 +5,29 @@
   <link rel="stylesheet" href="scss.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" href="./slick/slick.css">
+  <link rel="stylesheet" href="./jquery.pagepiling.css">
   <link rel="stylesheet" href="./visual-percent-preloader/percent-preloader.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <title>CS</title>
 </head>
 <div class="preloader">
-  <div class="inner">
-    <span class="percentage"><span id="percentage">0</span>%</span>
-  </div>
-  <div class="loader-progress" id="loader-progress"> </div>
+    <div class="inner">
+        <span class="percentage"><span id="percentage">0</span>%</span>
+    </div>
+    <div class="loader-progress" id="loader-progress"> </div>
 </div>
+
+
+
 <body>
 
+<div id="pagepiling">
+  
+
+
+
 div.wrap
+ <div class="section">
   div.top
    ul.menu
      li BLOG
@@ -35,15 +45,19 @@ div.wrap
        div.numbers__users 20,943,843
        div.numbers__users.text-mod UNIQUE PLAYERS LAST MONTH
        div.numbers__users.textbottom-mod MAJOR UPDATES
-  div.slide
-   div.img__slide
-    <img class="fit-picture" src="./img/facebook_1.png" alt="">
-   div.img__slide
-    <img class="fit-picture" src="./img/shatteredweb_blog_image_1.png" alt="">
-   div.img__slide
-    <img class="fit-picture" src="./img/bf_blog_image_1.png" alt="">
-   div.img__slide
-    <img class="fit-picture" src="./img/shatteredweb_blog_image_1.png" alt="">
+  </div>   
+  <div class="section">  
+    div.slide
+     div.img__slide
+      <img class="fit-picture" src="./img/facebook_1.png" alt="">
+     div.img__slide
+      <img class="fit-picture" src="./img/shatteredweb_blog_image_1.png" alt="">
+     div.img__slide
+      <img class="fit-picture" src="./img/bf_blog_image_1.png" alt="">
+     div.img__slide
+      <img class="fit-picture" src="./img/shatteredweb_blog_image_1.png" alt="">
+  </div>  
+ <div class="section">  
   div.container__content
     div.title PGL Antwerp 2022 Champions!
     div.time 2022.05.21 - <span><img class="fit-picture" src="./img/cs_blog_tag 1.png" alt=""></span>  
@@ -56,7 +70,9 @@ div.wrap
        div 
          <img class="fit-picture" src="./img/fb_like_1.png" alt="">
        div 
-         <img class="fit-picture" src="./img/reddit_1.png" alt="">    
+         <img class="fit-picture" src="./img/reddit_1.png" alt="">  
+  </div>
+  <div class="section">           
   div.container__content
     div.title The stage is set in Antwerp
     div.time 2022.05.18 - <span><img class="fit-picture" src="./img/cs_blog_tag 1.png" alt=""></span>  
@@ -69,18 +85,17 @@ div.wrap
        div 
          <img class="fit-picture" src="./img/fb_like_1.png" alt="">
        div 
-         <img class="fit-picture" src="./img/reddit_1.png" alt="">             
-         
-       
+         <img class="fit-picture" src="./img/reddit_1.png" alt=""> 
+  </div>           
+</div>           
+</div>                  
 </body>
 <div id="top" onclick="toTop();"><img class="on__top__btnimg" src="./img/image_1.png" alt="no pic" /></div>
-
-
 </html>
 
 <script src="./jquery-1.12.4.js" type="text/javascript"></script>
 <script src="./slick/slick.min.js" type="text/javascript"></script>
-
 <script src="./visual-percent-preloader/percent-preloader.min.js" type="text/javascript"></script>
 
+<script src="./jquery.pagepiling.min.js" type="text/javascript"></script>
 <script src="./script.js" type="text/javascript"></script>
